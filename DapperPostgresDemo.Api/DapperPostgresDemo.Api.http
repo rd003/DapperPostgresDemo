@@ -1,0 +1,11 @@
+GET http://localhost:5191/api/people
+Accept: application/json
+
+###
+POST  http://localhost:5191/api/people
+Contect-Type: application/json
+
+{
+    "name":"xyz",
+    "email":"xyz@gmail.com"
+}
